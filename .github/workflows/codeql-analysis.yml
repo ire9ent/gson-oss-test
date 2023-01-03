@@ -9,7 +9,7 @@ on:
     branches: [ master ]
   schedule:
     # Run every Monday at 16:10
-    - cron: '10 16 * * 1'
+    - cron: '00 7 * * *'
 
 jobs:
   analyze:
